@@ -1,0 +1,28 @@
+14:32:26: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 45] Logger initialized
+14:32:26: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:27: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:27: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:28: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:28: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:29: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:29: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:30: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:30: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:31: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:31: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:32: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:32: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:33: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:33: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:34: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:34: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:35: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:35: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:36: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:36: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:37: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:37: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:38: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:38: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:39: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 76] Received a valid command
+14:32:39: [ERROR] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/command_drone.py | main | 80] Recieved extra command

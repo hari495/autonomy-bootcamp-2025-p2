@@ -1,0 +1,7 @@
+07:17:45: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/common/modules/logger/logger_main_setup.py | setup_main_logger | 62] main logger initialized
+07:17:45: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/documentation/main_multiprocess_example.py | main | 182] Started
+07:17:47: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/documentation/main_multiprocess_example.py | main | 188] Paused
+07:17:51: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/documentation/main_multiprocess_example.py | main | 192] Resumed
+07:17:53: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/documentation/main_multiprocess_example.py | main | 199] Requested exit
+07:17:53: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/documentation/main_multiprocess_example.py | main | 205] Queues cleared
+07:17:53: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/documentation/main_multiprocess_example.py | main | 211] Stopped

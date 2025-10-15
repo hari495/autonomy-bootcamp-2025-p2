@@ -1,0 +1,16 @@
+15:24:48: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_sender_worker.py | heartbeat_sender_worker | 45] Logger initialized
+15:24:48: [DEBUG] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_sender.py | __init__ | 34] HeartbeatSender initialized
+15:24:48: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_sender_worker.py | heartbeat_sender_worker | 57] heartbeat worker started
+15:24:48: [ERROR] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_sender_worker.py | heartbeat_sender_worker | 67] Error in heartbeat sender worker:'HeartbeatSender' object has no attribute 'run'
+15:24:49: [ERROR] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_sender_worker.py | heartbeat_sender_worker | 67] Error in heartbeat sender worker:'HeartbeatSender' object has no attribute 'run'
+15:24:50: [ERROR] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_sender_worker.py | heartbeat_sender_worker | 67] Error in heartbeat sender worker:'HeartbeatSender' object has no attribute 'run'
+15:24:51: [ERROR] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_sender_worker.py | heartbeat_sender_worker | 67] Error in heartbeat sender worker:'HeartbeatSender' object has no attribute 'run'
+15:24:52: [ERROR] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_sender_worker.py | heartbeat_sender_worker | 67] Error in heartbeat sender worker:'HeartbeatSender' object has no attribute 'run'
+15:24:53: [ERROR] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_sender_worker.py | heartbeat_sender_worker | 67] Error in heartbeat sender worker:'HeartbeatSender' object has no attribute 'run'
+15:24:54: [ERROR] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_sender_worker.py | heartbeat_sender_worker | 67] Error in heartbeat sender worker:'HeartbeatSender' object has no attribute 'run'
+15:24:55: [ERROR] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_sender_worker.py | heartbeat_sender_worker | 67] Error in heartbeat sender worker:'HeartbeatSender' object has no attribute 'run'
+15:24:56: [ERROR] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_sender_worker.py | heartbeat_sender_worker | 67] Error in heartbeat sender worker:'HeartbeatSender' object has no attribute 'run'
+15:24:57: [ERROR] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_sender_worker.py | heartbeat_sender_worker | 67] Error in heartbeat sender worker:'HeartbeatSender' object has no attribute 'run'
+15:24:58: [ERROR] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_sender_worker.py | heartbeat_sender_worker | 67] Error in heartbeat sender worker:'HeartbeatSender' object has no attribute 'run'
+15:24:59: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_sender_worker.py | heartbeat_sender_worker | 61] exit requested, stopping worker
+15:24:59: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_sender_worker.py | heartbeat_sender_worker | 70] heartbeat sender worker stopped

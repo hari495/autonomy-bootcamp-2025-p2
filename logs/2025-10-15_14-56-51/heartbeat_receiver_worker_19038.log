@@ -1,0 +1,24 @@
+14:56:51: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 48] Logger initialized
+14:56:51: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | __init__ | 48] heartbeat reciever initialized
+14:56:51: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 63] reciever worker started
+14:56:56: [WARNING] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 64] Missed heartbeat. 1 heartbeat missed in a row
+14:56:56: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 70] current Status of reciever: Connected
+14:56:57: [WARNING] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 64] Missed heartbeat. 1 heartbeat missed in a row
+14:56:57: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 70] current Status of reciever: Connected
+14:56:58: [WARNING] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 64] Missed heartbeat. 1 heartbeat missed in a row
+14:56:58: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 70] current Status of reciever: Connected
+14:56:59: [WARNING] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 64] Missed heartbeat. 1 heartbeat missed in a row
+14:56:59: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 70] current Status of reciever: Connected
+14:57:01: [WARNING] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 64] Missed heartbeat. 1 heartbeat missed in a row
+14:57:01: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 70] current Status of reciever: Connected
+14:57:02: [WARNING] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 64] Missed heartbeat. 1 heartbeat missed in a row
+14:57:02: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 70] current Status of reciever: Connected
+14:57:03: [WARNING] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 64] Missed heartbeat. 1 heartbeat missed in a row
+14:57:03: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 70] current Status of reciever: Connected
+14:57:04: [WARNING] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 64] Missed heartbeat. 1 heartbeat missed in a row
+14:57:04: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 70] current Status of reciever: Connected
+14:57:10: [WARNING] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 64] Missed heartbeat. 1 heartbeat missed in a row
+14:57:10: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 70] current Status of reciever: Connected
+14:57:12: [WARNING] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 64] Missed heartbeat. 1 heartbeat missed in a row
+14:57:12: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 70] current Status of reciever: Connected
+14:57:13: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 70] reciever worker stopped
