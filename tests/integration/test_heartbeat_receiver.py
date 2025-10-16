@@ -63,13 +63,13 @@ def read_queue(
     output_queue: queue_proxy_wrapper.QueueProxyWrapper,  # Add any necessary arguments
     main_logger: logger.Logger,
 ) -> None:
+    """
+    reads output queue from the reciever drone and gets the status depending on how many hearbeats missed
+    """
     while not output_queue.queue.empty():
         status = output_queue.queue.get()
         if status is not None:
             main_logger.info("STATUS: " + status)
-    # Add logic to read from your worker's output queue and print it using the logger
-
-
 # =================================================================================================
 #                            ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
 # =================================================================================================

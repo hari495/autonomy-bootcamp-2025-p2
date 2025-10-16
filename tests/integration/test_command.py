@@ -75,6 +75,9 @@ def read_queue(
     controller: worker_controller.WorkerController,
     output_queue: queue_proxy_wrapper.QueueProxyWrapper,
 ) -> None:
+    """
+    read outputs from the queue and log it if it isnt empty
+    """
 
     # read and print output queue
     while not controller.is_exit_requested():

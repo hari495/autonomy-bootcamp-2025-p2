@@ -63,17 +63,14 @@ def read_queue(
     controller: worker_controller.WorkerController,  # Add any necessary arguments
     main_logger: logger.Logger,
 ) -> None:
+    """
+    Read and print the output queue.
+    """
     while not controller.is_exit_requested():
         controller.check_pause()
         if not output_queue.queue.empty():
             data = output_queue.queue.get()
             main_logger.info(f"Telemetry data: {data}")
-
-    """
-    Read and print the output queue.
-    """
-    pass  # Add logic to read from your worker's output queue and print it using the logger
-
 
 # =================================================================================================
 #                            ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
