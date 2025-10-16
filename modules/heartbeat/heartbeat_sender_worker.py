@@ -61,14 +61,15 @@ def heartbeat_sender_worker(
         if controller.is_exit_requested():
             local_logger.info("exit requested, stopping worker")
             break
-        try:
-            hb.run()
+        controller.check_pause()
+        success = hb.run()
+        if success:
             local_logger.debug("heartbeat sent", True)
-        except Exception as e:
-            local_logger.error(f"Error in heartbeat sender worker:{e}")
+        else:
+            local_logger.error("Error in heartbeat sender worker:")
         time.sleep(1)
 
-    local_logger.info(f"heartbeat sender worker stopped")
+    local_logger.info("heartbeat sender worker stopped")
 
 
 # =================================================================================================

@@ -98,14 +98,18 @@ class Telemetry:
         # Do any intializiation here
         self.connection = connection
         self._logger = local_logger
-        attitude_message = None
-        position_message = None
+        self.attitude_message = None
+        self.position_message = None
         self._logger.info("telemetry.py initialized")
 
+    # gets telemetry messages from drone and returns it
     def run(
         self,
-        # Put your own arguments here
     ) -> TelemetryData:
+        """
+        Receive LOCAL_POSITION_NED and ATTITUDE messages from the drone,
+        combining them together to form a single TelemetryData object.
+        """
         starting_time = time.time()
         timeout_period = 1
 
@@ -125,15 +129,9 @@ class Telemetry:
 
             if _position_msg and _attitude_msg:
                 break
-
-        """
-        Receive LOCAL_POSITION_NED and ATTITUDE messages from the drone,
-        combining them together to form a single TelemetryData object.
-        """
         if _position_msg and _attitude_msg:
             self.attitude_message = _attitude_msg
             self.position_message = _position_msg
-
             telemetry_data = TelemetryData(
                 # Read MAVLink message LOCAL_POSITION_NED (32)
                 # Read MAVLink message ATTITUDE (30)
