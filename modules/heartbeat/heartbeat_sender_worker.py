@@ -63,7 +63,6 @@ def heartbeat_sender_worker(
         success = hb.run()
         if not success:
             local_logger.error("Error in heartbeat sender worker:")
-        
 
     local_logger.info("heartbeat sender worker stopped")
 

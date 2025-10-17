@@ -78,7 +78,7 @@ def read_queue(
         except (AssertionError, TypeError, AttributeError):
             main_logger.error("error in reading queue")
 
-        
+
 # =================================================================================================
 #                            ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
 # =================================================================================================
@@ -138,15 +138,13 @@ def main() -> int:
         stop,
         args=(output_queue, controller),
     ).start()
-    
 
     # Read the main queue (worker outputs)
-    threading.Thread(target=read_queue, args=(output_queue, controller,main_logger)).start()
+    threading.Thread(target=read_queue, args=(output_queue, controller, main_logger)).start()
     heartbeat_receiver_worker.heartbeat_receiver_worker(
         HEARTBEAT_PERIOD, connection, output_queue, controller  # Place your own arguments here
     )
     output_queue.fill_and_drain_queue()
-
 
     # =============================================================================================
     #                          ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑

@@ -53,7 +53,7 @@ def heartbeat_receiver_worker(
     flag, reciever = heartbeat_receiver.HeartbeatReceiver.create(connection, local_logger)
     status = "Disconnected"
 
-    local_logger.info("reciever worker started")
+    local_logger.info("reciever worker started" + flag)
 
     while not controller.is_exit_requested():
         status = reciever.run()
