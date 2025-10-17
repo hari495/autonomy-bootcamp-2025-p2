@@ -56,17 +56,17 @@ class HeartbeatReceiver:
         the connection is considered disconnected.
         """
         message = self.connection.recv_match(type="HEARTBEAT")
-        if not message:
+        if message:
+            self._missed = 0
+            self.state = "Connected"
+        else:
             self._missed += 1
             self._log.warning(
                 "Missed heartbeat. " + str(self._missed) + " heartbeat missed in a row"
             )
             if self._missed >= 5:
                 self.state = "Disconnected"
-            else:
-                self._missed = 0
-                self.state = "Connected"
-            self._log.info("current Status of reciever: " + self.state)
+        self._log.info("current Status of receiver: " + self.state)
         return self.state
 
 

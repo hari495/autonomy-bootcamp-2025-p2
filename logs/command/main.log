@@ -1,28 +1,28 @@
-15:40:43: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/common/modules/logger/logger_main_setup.py | setup_main_logger | 62] main logger initialized
-15:40:43: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | main | 137] Connected!
-15:40:43: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGE_ALTITUDE: 1m
-15:40:44: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGE_ALTITUDE: -1m
-15:40:47: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: 63.434948822922024
-15:40:47: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: 90.0
-15:40:48: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: 116.56505117707798
-15:40:48: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: 45.0
-15:40:49: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: 63.434948822921996
-15:40:49: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: 90.0
-15:40:50: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: 26.565051177077976
-15:40:50: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: 45.0
-15:40:51: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: 90.0
-15:40:51: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: 45.0
-15:40:52: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: 90.0
-15:40:52: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: 135.0
-15:40:53: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: -26.565051177077976
-15:40:53: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: -45.0
-15:40:54: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: -90.0
-15:40:54: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: -45.0
-15:40:55: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: -90.0
-15:40:55: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: -135.0
-15:40:56: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: -63.434948822921996
-15:40:56: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: -90.0
-15:40:57: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: -116.56505117707798
-15:40:57: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: -45.0
-15:40:58: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: -63.43494882292201
-15:40:58: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 81] CHANGING_YAW: -90.0
+12:05:13: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/common/modules/logger/logger_main_setup.py | setup_main_logger | 62] main logger initialized
+12:05:13: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | main | 142] Connected!
+12:05:13: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGE_ALTITUDE: 1m
+12:05:14: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGE_ALTITUDE: -1m
+12:05:17: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: 63.434948822922024
+12:05:17: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: 90.0
+12:05:18: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: 116.56505117707798
+12:05:18: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: 45.0
+12:05:19: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: 63.434948822921996
+12:05:19: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: 90.0
+12:05:20: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: 26.565051177077976
+12:05:20: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: 45.0
+12:05:21: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: 90.0
+12:05:21: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: 45.0
+12:05:22: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: 90.0
+12:05:22: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: 135.0
+12:05:23: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: -26.565051177077976
+12:05:23: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: -45.0
+12:05:24: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: -90.0
+12:05:24: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: -45.0
+12:05:25: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: -90.0
+12:05:25: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: -135.0
+12:05:26: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: -63.434948822921996
+12:05:26: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: -90.0
+12:05:27: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: -116.56505117707798
+12:05:27: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: -45.0
+12:05:28: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: -63.43494882292201
+12:05:28: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 86] CHANGING_YAW: -90.0

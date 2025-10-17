@@ -214,7 +214,7 @@ def main() -> int:
     main_logger.info("Queues cleared")
 
     # Clean up worker processes
-    heartbeat_sender_manager.join_workersworkers()
+    heartbeat_sender_manager.join_workers()
     heartbeat_receiver_manager.join_workers()
     telemetry_manager.join_workers()
     command_manager.join_workers()

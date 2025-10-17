@@ -1,6 +1,6 @@
-15:39:55: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 48] Logger initialized
-15:39:55: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | __init__ | 103] telemetry.py initialized
-15:39:55: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:25: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 48] Logger initialized
+12:04:25: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | __init__ | 103] telemetry.py initialized
+12:04:25: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 0,
             x: 0.0,
             y: 0.0,
@@ -15,7 +15,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:39:55: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:26: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 500,
             x: 0.5,
             y: 0.0,
@@ -30,7 +30,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:39:56: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:26: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 1000,
             x: 1.0,
             y: 0.0,
@@ -45,7 +45,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:39:56: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:27: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 1500,
             x: 1.5,
             y: 0.0,
@@ -60,7 +60,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:39:57: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:27: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 2000,
             x: 2.0,
             y: 0.0,
@@ -75,7 +75,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:39:57: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:28: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 2500,
             x: 2.5,
             y: 0.0,
@@ -90,7 +90,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:39:58: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:28: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 3000,
             x: 3.0,
             y: 0.0,
@@ -105,7 +105,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:39:58: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:29: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 3500,
             x: 3.5,
             y: 0.0,
@@ -120,7 +120,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:39:59: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:29: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 4000,
             x: 4.0,
             y: 0.0,
@@ -135,7 +135,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:39:59: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:30: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 4500,
             x: 4.5,
             y: 0.0,
@@ -150,7 +150,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:40:03: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:33: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 0,
             x: 0.0,
             y: 0.0,
@@ -165,7 +165,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:40:03: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:34: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 500,
             x: 0.3333333432674408,
             y: 0.0,
@@ -180,7 +180,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:40:04: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:34: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 1000,
             x: 0.6666666865348816,
             y: 0.0,
@@ -195,7 +195,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:40:04: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:35: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 1500,
             x: 1.3333333730697632,
             y: 0.0,
@@ -210,7 +210,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:40:05: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:35: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 2000,
             x: 1.6666666269302368,
             y: 0.0,
@@ -225,7 +225,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:40:05: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:36: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 2500,
             x: 2.3333332538604736,
             y: 0.0,
@@ -240,7 +240,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:40:06: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:36: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 3000,
             x: 2.6666667461395264,
             y: 0.0,
@@ -255,7 +255,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:40:06: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:37: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 3500,
             x: 3.3333332538604736,
             y: 0.0,
@@ -270,7 +270,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:40:07: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:37: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 4000,
             x: 3.6666667461395264,
             y: 0.0,
@@ -285,7 +285,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:40:07: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry data: {
+12:04:38: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] Telemetry data: {
             time_since_boot: 4500,
             x: 4.333333492279053,
             y: 0.0,
@@ -300,4 +300,4 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-15:40:08: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 67] Telemetry Worker Stopped
+12:04:39: [INFO] [/Users/harikolla/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 66] Telemetry Worker Stopped

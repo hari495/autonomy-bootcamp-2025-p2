@@ -60,18 +60,25 @@ def stop(
 
 
 def read_queue(
-    output_queue: queue_proxy_wrapper.QueueProxyWrapper,  # Add any necessary arguments
+    output_queue: queue_proxy_wrapper.QueueProxyWrapper,
+    controller: worker_controller.WorkerController,
     main_logger: logger.Logger,
 ) -> None:
     """
-    reads output queue from the reciever drone and gets the status depending on how many hearbeats missed
+    Read and print the output queue.
     """
-    while not output_queue.queue.empty():
-        status = output_queue.queue.get()
-        if status is not None:
-            main_logger.info("STATUS: " + status)
 
+    while not controller.is_exit_requested():
+        try:
+            connection_status = output_queue.queue.get(block=True)
+            if not connection_status:
+                continue
+            main_logger.info(f"Drone connection status: {connection_status}")
 
+        except (AssertionError, TypeError, AttributeError):
+            main_logger.error("error in reading queue")
+
+        
 # =================================================================================================
 #                            ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
 # =================================================================================================
@@ -131,13 +138,16 @@ def main() -> int:
         stop,
         args=(output_queue, controller),
     ).start()
+    
 
     # Read the main queue (worker outputs)
-    threading.Thread(target=read_queue, args=(output_queue, main_logger)).start()
-
+    threading.Thread(target=read_queue, args=(output_queue, controller,main_logger)).start()
     heartbeat_receiver_worker.heartbeat_receiver_worker(
         HEARTBEAT_PERIOD, connection, output_queue, controller  # Place your own arguments here
     )
+    output_queue.fill_and_drain_queue()
+
+
     # =============================================================================================
     #                          ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
     # =============================================================================================

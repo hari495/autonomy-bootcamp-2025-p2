@@ -57,17 +57,13 @@ def heartbeat_sender_worker(
         return
     local_logger.info("heartbeat worker started")
     # Main loop: do work.
-    while True:
-        if controller.is_exit_requested():
-            local_logger.info("exit requested, stopping worker")
-            break
+    while not controller.is_exit_requested():
+        time.sleep(1)
         controller.check_pause()
         success = hb.run()
-        if success:
-            local_logger.debug("heartbeat sent", True)
-        else:
+        if not success:
             local_logger.error("Error in heartbeat sender worker:")
-        time.sleep(1)
+        
 
     local_logger.info("heartbeat sender worker stopped")
 
