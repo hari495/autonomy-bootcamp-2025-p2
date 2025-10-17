@@ -72,6 +72,7 @@ def read_queue(
             data = output_queue.queue.get()
             main_logger.info(f"Telemetry data: {data}")
 
+
 # =================================================================================================
 #                            ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
 # =================================================================================================
