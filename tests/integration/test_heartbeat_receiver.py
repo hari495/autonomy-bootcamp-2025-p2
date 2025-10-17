@@ -70,8 +70,6 @@ def read_queue(
         status = output_queue.queue.get()
         if status is not None:
             main_logger.info("STATUS: " + status)
-
-
 # =================================================================================================
 #                            ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
 # =================================================================================================
