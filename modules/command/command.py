@@ -87,7 +87,7 @@ class Command:  # pylint: disable=too-many-instance-attributes
         avg_vz = sum_vz / (len(self.velocity_data) * 1.0)
 
         # Log average velocity for this trip so far
-        self.logger.info(f"avg velocity for trip: vx:{avg_vx}, vy:{avg_vy}, vz:{avg_vz}")
+        self.logger.info(f"avg velocity for trip: ({avg_vx}, {avg_vy}, {avg_vz})")
 
         # Use COMMAND_LONG (76) message, assume the target_system=1 and target_componenet=0
         # The appropriate commands to use are instructed below
