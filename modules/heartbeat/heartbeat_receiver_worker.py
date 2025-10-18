@@ -51,8 +51,9 @@ def heartbeat_receiver_worker(
     # =============================================================================================
     # Instantiate class object (heartbeat_receiver.HeartbeatReceiver)
     flag, reciever = heartbeat_receiver.HeartbeatReceiver.create(connection, local_logger)
-    status = "Disconnected"
-
+    if not flag:
+        local_logger.error("failed to create reciever instance")
+        return
     local_logger.info("reciever worker started" + flag)
 
     while not controller.is_exit_requested():
